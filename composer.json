@@ -1,0 +1,34 @@
+{
+    "name": "waad/laravel-duplicated-unique-soft-delete",
+    "description": "Add media to your Laravel application in one place",
+    "keywords": [
+        "Waad Mawlood",
+        "soft delete",
+        "laravel",
+        "unique",
+        "duplicated unique key"
+    ],
+    "homepage": "https://github.com/waadmawlood/laravel-duplicated-unique-soft-delete",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Waad Mawlood",
+            "email": "waad_mawlood@outlook.com",
+            "homepage": "https://waad.netlify.app",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Waad\\DUSD\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
